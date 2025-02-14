@@ -509,171 +509,135 @@
 				</div>
 			</section>
 
-
-
-			<div class="container py-5 my-5">
-				<div class="row pb-5 mb-2">
-					<div class="col text-center">
-						<h2 class="font-weight-medium text-12 mb-0"><em>Momentum is Shaping the Skyline
-							</em></h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<p class="mb-4">For nearly two decades, Momentum Developments has been transforming the Waterloo
-							Region, creating vibrant communities and redefining urban living. Our developments stand as
-							landmarks of innovation, comfort, and modern design, contributing to the revitalization of
-							Downtown Kitchener and Uptown Waterloo.</p>
-
-					</div>
-				</div>
-
-				<div class="lightbox"
-					data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': true, 'duration': 300}}">
-					<div class="masonry-loader masonry-loader-showing">
-						<div class="masonry row" data-plugin-masonry
-							data-plugin-options="{'layoutMode': 'packery', 'itemSelector': '.masonry-item', 'sortBy': 'original-order'}">
-							<div class="masonry-item no-default-style col-6 overflow-hidden px-0">
-								<a class="d-inline-block custom-img-thumbnail-style-1 img-thumbnail img-thumbnail-no-borders img-thumbnail-hover-icon rounded-0 appear-animation"
-									href="img/gallery/1.png" data-appear-animation="maskDown"
-									data-appear-animation-delay="500">
-									<img src="img/gallery/1.png" class="img-fluid rounded-0" alt="" />
-								</a>
+			<section class="section border-0 lazyload my-0"
+				data-bg-src="img/demos/law-firm/backgrounds/background-4.jpg" style="background-position: 50% 100%;">
+				<div class="container">
+					<div class="row justify-content-md-end py-3">
+						<div class="col-md-6">
+							<div class="appear-animation" data-appear-animation="blurIn"
+								data-appear-animation-delay="0">
+								<h2 class="mb-0 font-weight-bold">Request a Free Consultation</h2>
+								<div class="divider divider-primary divider-small mt-2 mb-4">
+									<hr class="my-0 me-auto">
+								</div>
 							</div>
-							<div class="masonry-item no-default-style col-6 overflow-hidden px-0">
-								<a class="d-inline-block custom-img-thumbnail-style-1 img-thumbnail img-thumbnail-no-borders img-thumbnail-hover-icon rounded-0 appear-animation"
-									href="img/gallery/2.png" data-appear-animation="maskUp"
-									data-appear-animation-delay="500">
-									<img src="img/gallery/2.png" class="img-fluid rounded-0" alt="" />
-								</a>
+							<div class="appear-animation" data-appear-animation="fadeIn"
+								data-appear-animation-delay="300">
+								<p class="font-weight-medium text-4">Consult right now with our experienced team for
+									complete solutions to your legal issues.</p>
 							</div>
-							<div class="masonry-item no-default-style col-12  overflow-hidden px-0">
-								<a class="d-inline-block custom-img-thumbnail-style-1 img-thumbnail img-thumbnail-no-borders img-thumbnail-hover-icon rounded-0 appear-animation"
-									href="img/gallery/3.png" data-appear-animation="maskRight"
-									data-appear-animation-delay="250">
-									<img src="img/gallery/3.png" class="img-fluid rounded-0" alt="" />
-								</a>
-							</div>
-							<div class="masonry-item no-default-style col-6  overflow-hidden px-0">
-								<a class="d-inline-block custom-img-thumbnail-style-1 img-thumbnail img-thumbnail-no-borders img-thumbnail-hover-icon rounded-0 appear-animation"
-									href="img/gallery/3.png" data-appear-animation="maskRight"
-									data-appear-animation-delay="250">
-									<img src="img/gallery/3.png" class="img-fluid rounded-0" alt="" />
-								</a>
-							</div>
-							<div class="masonry-item no-default-style col-6  overflow-hidden px-0">
-								<a class="d-inline-block custom-img-thumbnail-style-1 img-thumbnail img-thumbnail-no-borders img-thumbnail-hover-icon rounded-0 appear-animation"
-									href="img/gallery/4.png" data-appear-animation="maskLeft"
-									data-appear-animation-delay="750">
-									<img src="img/gallery/4.png" class="img-fluid rounded-0" alt="" />
-								</a>
-							</div>
+							<div class="appear-animation" data-appear-animation="fadeIn"
+								data-appear-animation-delay="400">
+								<form class="contact-form form-style-2" action="php/contact-form.php" method="POST">
+									<div class="contact-form-success alert alert-success d-none mt-4">
+										<strong>Success!</strong> Your message has been sent to us.
+									</div>
 
+									<div class="contact-form-error alert alert-danger d-none mt-4">
+										<strong>Error!</strong> There was an error sending your message.
+										<span class="mail-error-message text-1 d-block"></span>
+									</div>
 
+									<div class="row pb-2 mb-1">
+										<div class="form-group col-lg-6">
+											<input type="text" value="" placeholder="Full Name"
+												data-msg-required="Please enter your name." maxlength="100"
+												class="form-control text-3 h-auto py-2" name="name" required>
+										</div>
+										<div class="form-group col-lg-6">
+											<input type="email" value="" placeholder="Email Address"
+												data-msg-required="Please enter your email address."
+												data-msg-email="Please enter a valid email address." maxlength="100"
+												class="form-control text-3 h-auto py-2" name="email" required>
+										</div>
+									</div>
+									<div class="row pb-2 mb-1">
+										<div class="form-group col">
+											<input type="text" value="" placeholder="Subject"
+												data-msg-required="Please enter the subject." maxlength="100"
+												class="form-control text-3 h-auto py-2" name="subject" required>
+										</div>
+									</div>
+									<div class="row pb-2 mb-1">
+										<div class="form-group col">
+											<textarea maxlength="5000" placeholder="Message"
+												data-msg-required="Please enter your message." rows="8"
+												class="form-control text-3 h-auto py-2" name="message"
+												required></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col">
+											<input type="submit" value="Submit Form"
+												class="btn btn-primary btn-modern text-uppercase font-weight-bold text-2 py-3 btn-px-4"
+												data-loading-text="Loading...">
+										</div>
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
+			</section>
 
+
+			<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+			<div class="overflow-hidden text-center mt-5">
+				<h2 class="d-block text-color-primary custom-font-secondary font-weight-semibold appear-animation"
+					data-appear-animation="maskUp">Discover Q Condos in downtown Kitchener!</h2>
 			</div>
-		</div>
+			<div class="position-relative appear-animation mb-5" data-appear-animation="fadeInUpShorterPlus"
+				data-appear-animation-delay="750">
+				<div
+					class="custom-directions-panel position-absolute top-0 left-0 w-100pct w-md-50pct w-lg-25pct h-100 mh-100 overflow-auto z-index-1">
+				</div>
+				<div id="googlemaps" class="google-map m-0" style="min-height: 500px;">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1456.0009092986763!2d-79.204884!3d43.125488!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d34ffe0cfbe8a5%3A0x273b39ff320e9b5!2s8%20Queen%20St%20N%2C%20Thorold%2C%20ON%20L2V%202P8%2C%20Canada!5e0!3m2!1sen!2sus!4v1739527898413!5m2!1sen!2sus"
+						width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
 
-		<footer id="footer" class="mt-0">
-			<div class="footer-copyright">
-				<div class="container py-2">
-					<div class="row py-4">
-						<div class="col d-flex align-items-center justify-content-center">
-							<p><strong>PORTO TEMPLATE</strong> - © Copyright 2024. All Rights Reserved.</p>
+			<footer id="footer" class="mt-0">
+				<div class="footer-copyright">
+					<div class="container py-2">
+						<div class="row py-4">
+							<div class="col d-flex align-items-center justify-content-center">
+								<p><strong>PORTO TEMPLATE</strong> - © Copyright 2024. All Rights Reserved.</p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
 
-	</div>
-
-	<a class="style-switcher-open-loader" href="#" data-base-path="" data-skin-src="" data-bs-toggle="tooltip"
-		data-bs-animation="false" data-bs-placement="right" title="Style Switcher" aria-label="Style Switcher"><i
-			class="fas fa-cogs"></i>
-		<div class="style-switcher-tooltip"><strong>Style Switcher</strong>
-			<p>Check out different color options and styles.</p>
 		</div>
-	</a>
 
-	<!-- Vendor -->
-	<script src="vendor/plugins/js/plugins.min.js"></script>
+		<a class="style-switcher-open-loader" href="#" data-base-path="" data-skin-src="" data-bs-toggle="tooltip"
+			data-bs-animation="false" data-bs-placement="right" title="Style Switcher" aria-label="Style Switcher"><i
+				class="fas fa-cogs"></i>
+			<div class="style-switcher-tooltip"><strong>Style Switcher</strong>
+				<p>Check out different color options and styles.</p>
+			</div>
+		</a>
 
-	<!-- Theme Base, Components and Settings -->
-	<script src="js/theme.js"></script>
+		<!-- Vendor -->
+		<script src="vendor/plugins/js/plugins.min.js"></script>
 
-	<script src="js/views/view.contact.js"></script>
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
 
-	<!-- Theme Custom -->
-	<script src="js/custom.js"></script>
+		<script src="js/views/view.contact.js"></script>
 
-	<!-- Theme Initialization Files -->
-	<script src="js/theme.init.js"></script>
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
 
-	<!-- Examples -->
-	<script src="js/examples/examples.portfolio.js"></script>
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
 
-	<!-- Google Maps -->
-	<script>
+		<!-- Examples -->
+		<script src="js/examples/examples.portfolio.js"></script>
 
-		/* 
-		Map Markers:
-		- Get an API Key: https://developers.google.com/maps/documentation/javascript/get-api-key
-		- Generate Map Id: https://console.cloud.google.com/google/maps-apis/studio/maps
-		- Use https://www.latlong.net/convert-address-to-lat-long.html to get Latitude and Longitude of a specific address
-		*/
-		(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
-			({ key: "YOUR_API_KEY", v: "weekly" });
-
-		async function initMap() {
-			const { Map, InfoWindow } = await google.maps.importLibrary("maps");
-			const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
-				"marker",
-			);
-			const map = new Map(document.getElementById("googlemaps"), {
-				zoom: 14,
-				center: { lat: -37.817240, lng: 144.955820 },
-				mapId: "YOUR_MAP_API_ID",
-			});
-			const markers = [
-				{
-					position: { lat: -37.817240, lng: 144.955820 },
-					title: "Office 1<br>Melbourne, 121 King St, Australia<br>Phone: 123-456-1234",
-				}
-			];
-
-			const infoWindow = new InfoWindow();
-
-			markers.forEach(({ position, title }, i) => {
-				const pin = new PinElement({
-					background: "#e36159",
-					borderColor: "#e36159",
-					glyphColor: "#FFF",
-				});
-				const marker = new AdvancedMarkerElement({
-					position,
-					map,
-					title: `${title}`,
-					content: pin.element,
-				});
-
-				marker.addListener("click", ({ domEvent, latLng }) => {
-					const { target } = domEvent;
-
-					infoWindow.close();
-					infoWindow.setContent(marker.title);
-					infoWindow.open(marker.map, marker);
-				});
-			});
-
-		}
-
-		initMap();
-
-	</script>
 
 </body>
 
