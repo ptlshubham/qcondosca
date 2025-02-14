@@ -472,7 +472,66 @@
 				</div>
 			</section>
 
+			<section class="section border-0 lazyload my-0" data-bg-src="img/demos/law-firm/backgrounds/background-4.jpg" style="background-position: 50% 100%;">
+				<div class="container">
+					<div class="row justify-content-md-end py-3">
+						<div class="col-md-6">
+							<div class="appear-animation" data-appear-animation="blurIn" data-appear-animation-delay="0">
+								<h2 class="mb-0 font-weight-bold">Request a Free Consultation</h2>
+								<div class="divider divider-primary divider-small mt-2 mb-4">
+									<hr class="my-0 me-auto">
+								</div>
+							</div>
+							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="300">
+								<p class="font-weight-medium text-4">Consult right now with our experienced team for complete solutions to your legal issues.</p>
+							</div>
+							<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="400">
+								<form class="contact-form form-style-2" action="php/contact-form.php" method="POST">
+									<div class="contact-form-success alert alert-success d-none mt-4">
+										<strong>Success!</strong> Your message has been sent to us.
+									</div>
+
+									<div class="contact-form-error alert alert-danger d-none mt-4">
+										<strong>Error!</strong> There was an error sending your message.
+										<span class="mail-error-message text-1 d-block"></span>
+									</div>
+
+									<div class="row pb-2 mb-1">
+										<div class="form-group col-lg-6">
+											<input type="text" value="" placeholder="Full Name" data-msg-required="Please enter your name." maxlength="100" class="form-control text-3 h-auto py-2" name="name" required>
+										</div>
+										<div class="form-group col-lg-6">
+											<input type="email" value="" placeholder="Email Address" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control text-3 h-auto py-2" name="email" required>
+										</div>
+									</div>
+									<div class="row pb-2 mb-1">
+										<div class="form-group col">
+											<input type="text" value="" placeholder="Subject" data-msg-required="Please enter the subject." maxlength="100" class="form-control text-3 h-auto py-2" name="subject" required>
+										</div>
+									</div>
+									<div class="row pb-2 mb-1">
+										<div class="form-group col">
+											<textarea maxlength="5000" placeholder="Message" data-msg-required="Please enter your message." rows="8" class="form-control text-3 h-auto py-2" name="message" required></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group col">
+											<input type="submit" value="Submit Form" class="btn btn-primary btn-modern text-uppercase font-weight-bold text-2 py-3 btn-px-4" data-loading-text="Loading...">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
 			<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+			<div class="overflow-hidden text-center mt-5">
+				<h2 class="d-block text-color-primary custom-font-secondary font-weight-semibold appear-animation"
+					data-appear-animation="maskUp">Discover Q Condos in downtown Kitchener!</h2>
+			</div>
 			<div class="position-relative appear-animation mb-5" data-appear-animation="fadeInUpShorterPlus"
 				data-appear-animation-delay="750">
 				<div
@@ -486,119 +545,44 @@
 				</div>
 			</div>
 
-			<div class="container py-3 mt-3">
-				<div class="row pb-2 mb-4">
-					<div class="col">
-						<div class="d-flex align-items-center mb-2">
-							<span class="custom-line appear-animation" data-appear-animation="customLineAnimation"
-								appear-animation-duration="1s"></span>
-							<div class="overflow-hidden ms-3">
-								<h2 class="text-color-primary font-weight-semibold line-height-3 text-4 mb-0 appear-animation"
-									data-appear-animation="maskRight" data-appear-animation-delay="1000">GET IN TOUCH
-								</h2>
+			<footer id="footer" class="mt-0">
+				<div class="footer-copyright">
+					<div class="container py-2">
+						<div class="row py-4">
+							<div class="col d-flex align-items-center justify-content-center">
+								<p><strong>PORTO TEMPLATE</strong> - © Copyright 2024. All Rights Reserved.</p>
 							</div>
 						</div>
-						<h3 class="text-color-secondary font-weight-bold text-transform-none line-height-2 text-8 mb-0 appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">Send Us a Message
-						</h3>
 					</div>
 				</div>
-				<div class="row pb-5 appear-animation" data-appear-animation="fadeInUpShorter"
-					data-appear-animation-delay="1400">
-					<div class="col">
-						<form class="contact-form custom-form-style-1" action="php/contact-form.php" method="POST">
-							<div class="contact-form-success alert alert-success d-none mt-4">
-								<strong>Success!</strong> Your message has been sent to us.
-							</div>
-
-							<div class="contact-form-error alert alert-danger d-none mt-4">
-								<strong>Error!</strong> There was an error sending your message.
-								<span class="mail-error-message text-1 d-block"></span>
-							</div>
-
-							<div class="row row-gutter-sm">
-								<div class="form-group col-lg-6 mb-4">
-									<input type="text" value="" data-msg-required="Please enter your name."
-										maxlength="100" class="form-control" name="name" id="name" required
-										placeholder="Your Name">
-								</div>
-								<div class="form-group col-lg-6 mb-4">
-									<input type="text" value="" data-msg-required="Please enter your phone number."
-										maxlength="100" class="form-control" name="phone" id="phone" required
-										placeholder="Phone Number">
-								</div>
-							</div>
-							<div class="row row-gutter-sm">
-								<div class="form-group col-lg-6 mb-4">
-									<input type="email" value="" data-msg-required="Please enter your email address."
-										data-msg-email="Please enter a valid email address." maxlength="100"
-										class="form-control" name="email" id="email" required placeholder="Your Name">
-								</div>
-								<div class="form-group col-lg-6 mb-4">
-									<input type="text" value="" data-msg-required="Please enter the subject."
-										maxlength="100" class="form-control" name="subject" id="subject" required
-										placeholder="Subject">
-								</div>
-							</div>
-							<div class="row">
-								<div class="form-group col mb-4">
-									<textarea maxlength="5000" data-msg-required="Please enter your message." rows="4"
-										class="form-control" name="message" id="message" required
-										placeholder="Your Message"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="form-group col mb-0">
-									<button type="submit"
-										class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3"
-										data-loading-text="Loading...">SEND MESSAGE</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
+			</footer>
 
 		</div>
 
-		<footer id="footer" class="mt-0">
-			<div class="footer-copyright">
-				<div class="container py-2">
-					<div class="row py-4">
-						<div class="col d-flex align-items-center justify-content-center">
-							<p><strong>PORTO TEMPLATE</strong> - © Copyright 2024. All Rights Reserved.</p>
-						</div>
-					</div>
-				</div>
+		<a class="style-switcher-open-loader" href="#" data-base-path="" data-skin-src="" data-bs-toggle="tooltip"
+			data-bs-animation="false" data-bs-placement="right" title="Style Switcher" aria-label="Style Switcher"><i
+				class="fas fa-cogs"></i>
+			<div class="style-switcher-tooltip"><strong>Style Switcher</strong>
+				<p>Check out different color options and styles.</p>
 			</div>
-		</footer>
+		</a>
 
-	</div>
+		<!-- Vendor -->
+		<script src="vendor/plugins/js/plugins.min.js"></script>
 
-	<a class="style-switcher-open-loader" href="#" data-base-path="" data-skin-src="" data-bs-toggle="tooltip"
-		data-bs-animation="false" data-bs-placement="right" title="Style Switcher" aria-label="Style Switcher"><i
-			class="fas fa-cogs"></i>
-		<div class="style-switcher-tooltip"><strong>Style Switcher</strong>
-			<p>Check out different color options and styles.</p>
-		</div>
-	</a>
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
 
-	<!-- Vendor -->
-	<script src="vendor/plugins/js/plugins.min.js"></script>
+		<script src="js/views/view.contact.js"></script>
 
-	<!-- Theme Base, Components and Settings -->
-	<script src="js/theme.js"></script>
+		<!-- Theme Custom -->
+		<script src="js/custom.js"></script>
 
-	<script src="js/views/view.contact.js"></script>
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
 
-	<!-- Theme Custom -->
-	<script src="js/custom.js"></script>
-
-	<!-- Theme Initialization Files -->
-	<script src="js/theme.init.js"></script>
-
-	<!-- Examples -->
-	<script src="js/examples/examples.portfolio.js"></script>
+		<!-- Examples -->
+		<script src="js/examples/examples.portfolio.js"></script>
 
 
 </body>
