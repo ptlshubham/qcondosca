@@ -157,37 +157,9 @@
 							</div>
 						</div>
 
-						<!-- Carousel Slide 2 -->
-						<div class="owl-item position-relative overlay overlay-show overlay-op-1 pt-5"
-							style="background-image: url(img/slides/2.jpg); background-size: cover; background-position: center;">
-							<div class="container position-relative z-index-3 h-100">
-								<div class="row justify-content-center align-items-center h-100">
-									<div class="col-lg-6">
-										<div class="d-flex flex-column align-items-center">
-											<h3 class="position-relative text-color-light text-5 line-height-5 font-weight-medium px-4 mb-2 appear-animation"
-												data-appear-animation="fadeInDownShorterPlus"
-												data-plugin-options="{'minWindowWidth': 0}">
-												Experience Unmatched Elegance
-
-											</h3>
-											<h2 class="text-color-light font-weight-extra-bold text-12 mb-3 appear-animation"
-												data-appear-animation="blurIn" data-appear-animation-delay="500"
-												data-plugin-options="{'minWindowWidth': 0}">THE BEST DESIGN</h2>
-											<p class="text-4 text-color-light font-weight-light opacity-9 text-center mb-0"
-												data-plugin-animated-letters
-												data-plugin-options="{'startDelay': 1000, 'minWindowWidth': 0, 'animationSpeed': 25}">
-												Discover sophisticated living with cutting-edge design and smart home
-												features. Q Condos offers the perfect blend of style and convenience in
-												the heart of Downtown Kitchener.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
 						<!-- Carousel Slide 3 -->
 						<div class="owl-item position-relative overlay overlay-show overlay-op-1 pt-5"
-							style="background-image: url(img/slides/3.jpg); background-size: cover; background-position: center;">
+							style="background-image: url(img/slides/4.jpg); background-size: cover; background-position: center;">
 							<div class="container position-relative z-index-3 h-100">
 								<div class="row justify-content-center align-items-center h-100">
 									<div class="col-lg-6">
@@ -216,9 +188,6 @@
 							</div>
 						</div>
 
-
-
-
 					</div>
 				</div>
 				<div class="owl-nav">
@@ -227,7 +196,6 @@
 				</div>
 				<div class="owl-dots mb-5">
 					<button role="button" class="owl-dot active"><span></span></button>
-					<button role="button" class="owl-dot"><span></span></button>
 					<button role="button" class="owl-dot"><span></span></button>
 				</div>
 			</div>
@@ -307,6 +275,9 @@
 
 					</div>
 				</div>
+
+				
+
 			</section>
 
 			<section class="section bg-light border-0 m-0 " id="projects">
@@ -629,6 +600,7 @@
 				</div>
 			</div>
 
+			
 			<footer id="footer" class="mt-0">
 				<div class="footer-copyright">
 					<div class="container ">
@@ -657,6 +629,71 @@
 				</div>
 			</footer>
 
+			<!-- Page Load Modal -->
+			<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4 class="modal-title" id="formModalLabel">Contact Us</h4>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+						</div>
+						<div class="modal-body">
+							<form id="demo-form" class="mb-4" novalidate="novalidate">
+								<div class="form-group row align-items-center">
+									<label class="col-sm-3 text-start text-sm-end mb-0">Name</label>
+									<div class="col-sm-9">
+										<input type="text" name="name" class="form-control" placeholder="Type your name..." required/>
+									</div>
+								</div>
+								<div class="form-group row align-items-center">
+									<label class="col-sm-3 text-start text-sm-end mb-0">Email</label>
+									<div class="col-sm-9">
+										<input type="email" name="email" class="form-control" placeholder="Type your email..." required/>
+									</div>
+								</div>
+								<div class="form-group row align-items-center">
+									<label class="col-sm-3 text-start text-sm-end mb-0">Phone Number</label>
+									<div class="col-sm-9">
+										<input type="number" name="number" class="form-control" placeholder="Type an Number..." />
+									</div>
+								</div>
+								<div class="form-group row text-start">
+									<label class="col-sm-5 text-start text-sm-start mb-0">Are you Realtor?</label>
+									<div class="col-sm-7">
+											<input type="radio" name="customRadio" class="form-check-input">
+											<label class="form-check-label me-5" for="customRadio1">Yes</label>
+											<input type="radio" name="customRadio" class="form-check-input">
+											<label class="form-check-label" for="customRadio2">No</label>
+									</div>
+								</div>
+								<div class="form-group row text-start">
+									<label for="" class="col-sm-3 text-start text-sm-end mb-0">Are You:</label>
+									<div class="col-sm-7">
+										<select name="size" class="form-select form-control h-auto py-2">
+											<option value="" selected>First Time Home Buyer</option>
+											<option value="">Looking To Update</option>
+											<option value="">Looking to Downsize</option>
+											<option value="">Real Estate Investor</option>
+											<option value="">Other</option>
+										</select>
+									</div>
+									
+								</div>
+								<div class="form-group row text-start">
+									<label class="col-sm-3 text-start text-sm-end mb-0">Message</label>
+									<div class="col-sm-9">
+										<textarea rows="5"  class="form-control" placeholder="Type your comment..." required></textarea>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 
@@ -677,6 +714,12 @@
 		<!-- Examples -->
 		<script src="js/examples/examples.portfolio.js"></script>
 
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				var myModal = new bootstrap.Modal(document.getElementById('formModal'));
+				myModal.show();
+			});
+		</script>
 
 </body>
 
