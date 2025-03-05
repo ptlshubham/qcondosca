@@ -1,0 +1,47 @@
+/* Add this CSS to your stylesheet */
+@media (max-width: 767px) {
+    #home {
+        height: 70vh !important; /* Reduce height on mobile */
+    }
+
+    .owl-item {
+        background-size: cover !important;
+        background-position: center center !important;
+        min-height: 70vh; /* Ensure minimum height */
+    }
+
+    /* Adjust text sizes for mobile */
+    .text-12 {
+        font-size: 2.5rem !important; /* Reduce large heading */
+    }
+
+    .text-5 {
+        font-size: 1.5rem !important;
+    }
+
+    .text-4 {
+        font-size: 1rem !important;
+    }
+
+    .container {
+        padding: 15px !important; /* Adjust padding */
+    }
+
+    /* Center content better on mobile */
+    .d-flex.flex-column {
+        padding: 0 15px;
+    }
+}
+
+/* Base styles for all sizes */
+.owl-carousel .owl-item {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Ensure images maintain aspect ratio */
+.owl-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
