@@ -1,12 +1,33 @@
-/* Add this CSS to your stylesheet */
+/* Default Desktop Images */
+.slide-1 {
+    background-image: url('img/slides/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #35383d;
+}
+
+.slide-2 {
+    background-image: url('img/slides/4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #35383d;
+}
+
+/* Mobile View - Swap Background Images */
 @media (max-width: 767px) {
+    .slide-1 {
+        background-image: url('/img/slides/BUILDING 1-mobile-view.jpg'); /* Add a mobile-specific image */
+    }
+
+    .slide-2 {
+        background-image: url('img/slides/4-mobile.jpg'); /* Add a mobile-specific image */
+    }
+
     #home {
         height: 70vh !important; /* Reduce height on mobile */
     }
 
     .owl-item {
-        background-size: cover !important;
-        background-position: center center !important;
         min-height: 70vh; /* Ensure minimum height */
     }
 
@@ -31,17 +52,4 @@
     .d-flex.flex-column {
         padding: 0 15px;
     }
-}
-
-/* Base styles for all sizes */
-.owl-carousel .owl-item {
-    background-size: cover;
-    background-position: center;
-}
-
-/* Ensure images maintain aspect ratio */
-.owl-item img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
 }
