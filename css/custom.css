@@ -89,29 +89,24 @@
 .modal-backdrop.show {
   opacity: 1;
 }
-
-/* Responsive Adjustments */
+/* Ensure modal doesn’t block too much content */
 @media (max-width: 767px) {
   #aboutUsModal .modal-dialog {
-    max-width: 400px; /* Fixed width for mobile, centered */
-    width: 100%; /* Ensures it doesn’t exceed viewport */
-    margin: 0 auto; /* Center horizontally */
+    max-width: 400px;
+    width: 90%; /* Slightly narrower to avoid covering too much */
+    margin: 0 auto;
     bottom: 10px;
-    left: auto; /* Override inline left */
-    right: auto; /* Override inline right */
+    left: auto;
+    right: auto;
   }
+}
 
-  #aboutUsModal .modal-content {
-    max-height: 80vh;
-    overflow-y: auto;
-  }
-
-  #aboutUsModal .modal-header h5 {
-    font-size: 1rem;
-  }
-
-  #aboutUsModal .form-control,
-  #aboutUsModal .btn {
-    font-size: 0.8rem;
+@media (min-width: 768px) {
+  #aboutUsModal .modal-dialog {
+    max-width: 640px;
+    margin: 0 20px 20px auto; /* Align to bottom-right on desktop */
+    bottom: 20px;
+    right: 20px;
+    left: auto;
   }
 }
