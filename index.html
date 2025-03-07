@@ -611,7 +611,54 @@
 			</footer>
 
 		</div>
-
+		<!-- Modal for About Us Form -->
+		<div class="modal fade" id="aboutUsModal" tabindex="-1" aria-labelledby="aboutUsModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm"
+				style="position: fixed; bottom: 20px; right: 20px; top: auto; left: auto;">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title text-color-dark" id="aboutUsModalLabel">Get in Touch</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<form class="contact-form form-style-2" action="php/contact-form.php" method="POST">
+							<div class="form-group mb-2">
+								<input type="text" class="form-control" name="name" id="name" placeholder="Your Name"
+									required>
+							</div>
+							<div class="form-group mb-2">
+								<input type="email" class="form-control" name="email" id="email"
+									placeholder="Your Email" required>
+							</div>
+							<div class="form-group mb-2">
+								<input type="tel" class="form-control" name="number" id="number"
+									placeholder="Your Phone" required>
+							</div>
+							<div class="form-group mb-2">
+								<select class="form-control" name="q1" id="q1" required>
+									<option value="" selected disabled>Are You:</option>
+									<option value="First Time Home Buyer">First Time Home Buyer</option>
+									<option value="Looking To Update">Looking To Update</option>
+									<option value="Looking to Downsize">Looking to Downsize</option>
+									<option value="Real Estate Investor">Real Estate Investor</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>
+							<div class="form-group mb-2">
+								<select class="form-control" name="q2" id="q1" required>
+									<option value="" selected disabled>Are you a Realtor?</option>
+									<option value="yes">Yes</option>
+									<option value="no">No</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-primary btn-modern w-100">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Vendor -->
 		<script src="vendor/plugins/js/plugins.min.js"></script>
