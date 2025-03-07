@@ -64,7 +64,7 @@
 
 .modal-dialog {
   margin: 0;
-  max-width: 320px;
+  max-width: 640px; /* Desktop width remains 640px */
 }
 
 #aboutUsModal .modal-body {
@@ -81,6 +81,7 @@
   padding: 0.5rem;
 }
 
+/* Custom Backdrop Styling */
 .modal-backdrop {
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -89,13 +90,15 @@
   opacity: 1;
 }
 
-@media (max-width: 576px) {
+/* Responsive Adjustments */
+@media (max-width: 767px) {
   #aboutUsModal .modal-dialog {
+    max-width: 400px; /* Fixed width for mobile, centered */
+    width: 100%; /* Ensures it doesn’t exceed viewport */
+    margin: 0 auto; /* Center horizontally */
     bottom: 10px;
-    right: 10px;
-    left: 10px;
-    max-width: 100%;
-    width: calc(100% - 20px);
+    left: auto; /* Override inline left */
+    right: auto; /* Override inline right */
   }
 
   #aboutUsModal .modal-content {
